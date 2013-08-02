@@ -25,6 +25,7 @@ var end = fs.readFileSync(path.join(__dirname, 'template/body.html'));
 var page = start + '\n' + content + '\n' + end;
 
 var port = 3700;
+var exitAfter = 5; // seconds
 
 function hostPage(page) {
 	var server = http.createServer(function (req, res) {
@@ -36,10 +37,10 @@ function hostPage(page) {
 			res.end(fs.readFileSync(full));
 
 			if (req.url === '/slides-now.js') {
-				console.log('served application, exitting in 2 seconds');
+				console.log('served application, exitting in', exitAfter, 'seconds');
 				setTimeout(function () {
 					process.exit(0);
-				}, 2000);
+				}, exitAfter*1000);
 			}
 		}
 	});
