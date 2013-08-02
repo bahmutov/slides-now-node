@@ -1,0 +1,17 @@
+{
+  "name": "slides-now-node",
+  "version": "0.0.0",
+  "description": "Stand alone presentation from local .md file using slides-now engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "keywords": [
+    "markdown",
+    "slides",
+    "presentation"
+  ],
+  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
+  "license": "MIT"
+}
