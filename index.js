@@ -15,7 +15,7 @@ if (!mdName.test(mdFilename)) {
 
 var fs = require('fs');
 var path = require('path');
-var open = require('opener')
+var launcher = require('opener');
 var http = require('http');
 
 var content = fs.readFileSync(mdFilename);
@@ -40,14 +40,14 @@ function hostPage(page) {
 				console.log('served application, exitting in', exitAfter, 'seconds');
 				setTimeout(function () {
 					process.exit(0);
-				}, exitAfter*1000);
+				}, exitAfter * 1000);
 			}
 		}
 	});
 
 	server.listen(port, function () {
 		console.log('listening at port', port);
-		open('http://localhost:' + port);
+		launcher('http://localhost:' + port);
 	});
 }
 

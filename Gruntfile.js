@@ -1,5 +1,5 @@
 /*global module:false*/
-module.exports = function(grunt) {
+module.exports = function (grunt) {
 
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
@@ -14,7 +14,7 @@ module.exports = function(grunt) {
     }
   });
 
-  var plugins = require('matchdep').filter('grunt-*');
+  var plugins = require('matchdep').filterDev('grunt-*');
   plugins.forEach(grunt.loadNpmTasks);
 
   grunt.registerTask('default', ['jshint']);
