@@ -4,7 +4,7 @@
   "description": "Stand alone presentation from local .md file using slides-now engine",
   "main": "index.js",
   "bin": {
-  	"slides-now": "index.js"
+    "slides-now": "index.js"
   },
   "preferGlobal": true,
   "scripts": {
@@ -18,5 +18,7 @@
   ],
   "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {
+    "opener": "~1.3.0"
+  }
 }
