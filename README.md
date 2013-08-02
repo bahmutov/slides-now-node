@@ -4,9 +4,11 @@ Stand alone instant presentation from a Markdown document
 
 ### Installation and use
 
-	npm install -g slides-now
-	slides-now "filename.md"
-	// starts the presentation in the browser
+	// requires nodejs
+	npm install -g slides-now-node
+
+	// show README.md as presentation
+	slides-now README.md
 
 ## See also
 
