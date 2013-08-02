@@ -1,6 +1,6 @@
 {
   "name": "slides-now-node",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Stand alone presentation from local .md file using slides-now engine",
   "main": "index.js",
   "bin": {
