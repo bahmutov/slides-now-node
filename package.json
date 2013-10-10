@@ -26,8 +26,8 @@
     "check-types": "~0.6.5"
   },
   "devDependencies": {
-    "matchdep": "~0.1.2",
-    "grunt-contrib-jshint": "~0.6.2",
+    "matchdep": "~0.3.0",
+    "grunt-contrib-jshint": "~0.6.4",
     "grunt": "~0.4.1",
     "grunt-bump": "0.0.11"
   }
