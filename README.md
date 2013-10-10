@@ -12,9 +12,14 @@ Stand alone instant presentation from a Markdown document
 
 ## See also
 
-Also see [glebbahmutov.com/slides-now](http://glebbahmutov.com/slides-now/) 
+Also see [glebbahmutov.com/slides-now](http://glebbahmutov.com/slides-now/)
 where you can just drag and drop Markdown file to play presentation.
 
 ### comments, suggestions, updates
 
 Gleb Bahmutov **[@bahmutov](https://twitter.com/bahmutov)**
+
+
+Local images are supported too!
+
+![cat businessman](images/cat-businessman.jpg)
