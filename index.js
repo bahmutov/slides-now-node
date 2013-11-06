@@ -26,7 +26,7 @@ var end = fs.readFileSync(path.join(__dirname, 'template/body.html'));
 var page = start + '\n' + content + '\n' + end;
 
 function seconds(n) {
-	check.verifyNumber(n, 'expected number of seconds, not ' + n);
+	check.verify.positiveNumber(n, 'expected number of seconds, not ' + n);
 	return n * 1000;
 }
 
