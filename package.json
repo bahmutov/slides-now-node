@@ -23,12 +23,12 @@
   "license": "MIT",
   "dependencies": {
     "opener": "~1.3.0",
-    "check-types": "~1.1.0"
+    "check-types": "~1.1.1"
   },
   "devDependencies": {
     "matchdep": "~0.3.0",
-    "grunt-contrib-jshint": "~0.7.1",
-    "grunt": "~0.4.1",
-    "grunt-bump": "0.0.11"
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt": "~0.4.2",
+    "grunt-bump": "0.0.13"
   }
 }
